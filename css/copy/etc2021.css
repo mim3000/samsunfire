@@ -1,0 +1,415 @@
+@charset "utf-8";
+
+.inner {
+  width: 1180px;
+  margin: 0 auto
+}
+
+.ui-m .inner {
+  width: 100%;
+  padding: 0 15px
+}
+
+.header {
+  width: 100%;
+  height: 79px;
+  padding: 25px 20px;
+  border-bottom: 1px solid #dedede
+}
+
+.ui-m .header {
+  height: 53px;
+  padding: 15px 0;
+  text-align: center;
+  background: #1e78d0
+}
+
+.ui-m .header img {
+  display: inline-block
+}
+
+.ui-m .header h1 {
+  color: #fff;
+  font-size: 17px;
+  letter-spacing: -0.05em;
+  font-weight: 500
+}
+
+.text-wrap {
+  width: 650px;
+  margin: 50px auto 0;
+  padding: 0 0 0 50px;
+  letter-spacing: -0.3px
+}
+
+.text-wrap.txt-c {
+  padding: 0 50px
+}
+
+.text-wrap .tit {
+  font-size: 30px;
+  color: #000;
+  font-weight: 500;
+  letter-spacing: -0.07em
+}
+
+.text-wrap .tit.ico {
+  position: relative;
+  height: 50px;
+  padding-top: 90px;
+  background: #fff url(/resources/images/common/ico_error.png) no-repeat 50% 0;
+  box-sizing: content-box
+}
+
+.text-wrap .txt {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #000;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: -0.06em
+}
+
+.text-wrap.txt-c .txt {
+  font-size: 23px
+}
+
+.text-wrap .sub-txt {
+  margin-top: 23px;
+  font-size: 17px;
+  color: #000;
+  font-weight: 300;
+  line-height: 1.4;
+  letter-spacing: -0.05em
+}
+
+.text-wrap .bul-round {
+  margin: 5px 0 0 0;
+  font-weight: 400
+}
+
+.text-wrap .tit-m {
+  margin-top: 35px;
+  font-weight: 500;
+  font-size: 22px
+}
+
+.page-parking .text-wrap {
+  width: 540px;
+  padding: 0
+}
+
+.ui-m .text-wrap {
+  width: 100%;
+  margin: 20px 0 0;
+  padding: 0
+}
+
+.ui-m .text-wrap .tit {
+  font-size: 20px
+}
+
+.ui-m .text-wrap .txt {
+  margin-top: .8rem;
+  font-size: 16px
+}
+
+.ui-m .text-wrap .sub-txt {
+  font-size: 13px;
+  margin-top: 10px
+}
+
+.ui-m .text-wrap .tit-m {
+  font-size: 16px
+}
+
+.ui-m .text-wrap .bul-round {
+  margin-top: 14px
+}
+
+.box-info {
+  position: relative;
+  margin-top: 10px;
+  padding: 30px 40px 30px 65px;
+  width: 540px;
+  min-height: 135px;
+  border: 1px solid #ccc;
+  vertical-align: middle;
+  text-align: center
+}
+
+.ie8 .box-info {
+  min-height: 75px
+}
+
+.box-info [class*="box"] {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 30px;
+  margin-left: 35px
+}
+
+.box-info [class*="box"]:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 1px;
+  height: 70px;
+  margin-top: -35px;
+  background: #e9e9e9
+}
+
+.box-info [class*="box"]:first-child {
+  margin-left: 0;
+  padding-left: 0
+}
+
+.box-info [class*="box"]:first-child:before {
+  display: none
+}
+
+.box-info .tit {
+  font-size: 20px;
+  font-weight: 500;
+  color: #000
+}
+
+.box-info .tit span {
+  display: block;
+  font-size: 32px
+}
+
+.box-info .bul-round {
+  margin: 0;
+  text-align: left
+}
+
+.box-info .bul-round li {
+  margin: 0;
+  padding-left: 10px;
+  color: #444
+}
+
+.box-info [class*="box"]:before {
+  display: none
+}
+
+.ui-m .box-info {
+  width: 100%;
+  padding: 10px;
+  min-height: 0;
+  overflow: hidden
+}
+
+.ui-m .box-info .box1 {
+  display: inline-block;
+  vertical-align: middle
+}
+
+.ui-m .box-info .box1 .tit {
+  font-size: 12px
+}
+
+.ui-m .box-info .box1 .tit span {
+  font-size: 20px
+}
+
+.ui-m .box-info .box2 {
+  display: inline-block;
+  vertical-align: middle;
+  border-left: 1px solid #e9e9e9
+}
+
+.ui-m .box-info .box2 li {
+  font-size: 11px
+}
+
+.ui-m .box-info .box2 .bul-round {
+  margin: 0
+}
+
+.ui-m .box-info .box2 {
+  margin-left: 10px;
+  padding: 0 0 0 10px
+}
+
+.container {
+  display: inline-block;
+  width: 100%
+}
+
+.container .btn-wraps {
+  margin-top: 45px
+}
+
+.container .btn-wraps.mgt-xl {
+  margin-top: 90px !important
+}
+
+.container .btn-wraps [class*="btn-"] {
+  min-width: 220px;
+  margin: 0 10px
+}
+
+.container .btn-wraps.single [class*="btn-"] {
+  min-width: 200px
+}
+
+.page-oldie {
+  overflow: visible
+}
+
+.page-oldie .header {
+  padding: 25px 0;
+  box-sizing: content-box;
+  height: 29px
+}
+
+.page-oldie * {
+  font-family: '맑은 고딕';
+  letter-spacing: -1px
+}
+
+.page-oldie .container .btn-wraps [class*="btn-"] {
+  float: none;
+  width: 200px;
+  min-width: auto
+}
+
+.page-oldie .bul-round li {
+  font-size: 14px
+}
+
+.page-oldie .box-info {
+  text-align: inherit
+}
+
+.page-oldie .text-wrap {
+  width: 740px;
+  padding: 0
+}
+
+.page-oldie .btn-sub-dark {
+  background: #444
+}
+
+.ie-under img {
+  margin-bottom: 50px
+}
+
+.ie-under .bot-cont {
+  float: left
+}
+
+.ie-under .bot-cont .bg-ico {
+  display: block;
+  float: left
+}
+
+.ie-under .bot-cont .title {
+  float: left;
+  width: 470px
+}
+
+.ui-m .container {
+  padding: 0 1.0rem 30px;
+  background: #fff
+}
+
+.ui-m .container .btn-wraps {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 35px 0 0 0
+}
+
+.ui-m .container .btn-wraps.single {
+  justify-content: center
+}
+
+.ui-m .container .btn-wraps [class*="btn-"] {
+  font-size: 14px;
+  min-height: 50px;
+  margin: 0 0 0 10px;
+  flex: 0 50%;
+  text-align: center;
+  min-width: 0;
+  padding: 0 .5rem;
+  word-break: keep-all
+}
+
+.ui-m .container .btn-wraps.mgt-xl {
+  margin-top: 2.5rem !important
+}
+
+.ui-m .btn-wraps a:first-child,
+.ui-m .btn-wraps button:first-child {
+  margin-left: 0 !important
+}
+
+.ui-m .page-parking .container .btn-wraps.only-m {
+  display: flex !important;
+  justify-content: center
+}
+
+.ui-m .page-parking .container .btn-wraps [class*="btn-"] {
+  width: auto;
+  flex: 0 auto;
+  min-width: 45%;
+  padding: 1rem 0
+}
+
+.ui-m .page-parking .box-info {
+  padding: 15px
+}
+
+.ui-m .page-parking .box-info .box1 {
+  padding-right: 25px
+}
+
+.ui-m .page-parking .box-info .bul-round li {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #444
+}
+
+.ui-m .page-parking .box-info .bul-round li:first-child {
+  margin-top: 0
+}
+
+.ui-m .page-parking .box-info .bul-round li:before {
+  font-size: 20px;
+  top: -6px
+}
+
+.ui-m .page-parking .box-info .tit span {
+  letter-spacing: -0.1em
+}
+
+.txt-link {
+  position: relative;
+  color: #000
+}
+
+.txt-link span {
+  border-bottom: 1px solid #000
+}
+
+.ui-m .footer-error {
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  padding: 23px 0;
+  font-size: 11px;
+  color: #444;
+  text-align: center;
+  line-height: 14px;
+  letter-spacing: -0.03em;
+  border-top: 1px solid #e4e4e4;
+  background-color: #eee;
+  margin-top: 0
+}

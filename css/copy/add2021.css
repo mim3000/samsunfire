@@ -1,0 +1,359 @@
+.login-wrap.login-type-b [class*="box-"] {
+  height: 740px
+}
+
+.login-wrap.login-type-b .slc-login li a,
+.slc-login li button,
+.slc-login li a {
+  height: 150px
+}
+
+.login-wrap.login-type-b .slc-login {
+  margin-bottom: 0
+}
+
+.login-wrap.login-type-b .box-login .cont {
+  padding-top: 25px
+}
+
+.login-wrap.login-type-b .btn-wrap {
+  margin-top: 35px
+}
+
+.login-wrap.login-type-b .slc-login li.ico1 a::before {
+  background: url(/resources/images/common/ico_certificate.png) no-repeat;
+  background-size: 100%
+}
+
+.login-wrap.login-type-b .slc-login li.ico2 a::before {
+  background: url(/resources/images/common/ico_phone.png) no-repeat;
+  background-size: 100%
+}
+
+.login-wrap.login-type-b .slc-login li.ico4 a::before {
+  background: url(/resources/images/common/ico_kakao.png) no-repeat;
+  background-size: 100%
+}
+
+.login-wrap.login-type-b .slc-login li.ico5 a::before {
+  background: url(/resources/images/common/ico_toss.png) no-repeat;
+  background-size: 100%
+}
+
+.login-wrap.login-type-b .slc-login li.ico6 a::before {
+  background: url(/resources/images/common/ico_pin.png) no-repeat;
+  background-size: 100%
+}
+
+.login-wrap.login-type-b .slc-login li.ico7 a::before {
+  background: url(/resources/images/common/ico_biometric.png) no-repeat;
+  background-size: 100%
+}
+
+.wraptype-certinum.input-type {
+  display: inline-block
+}
+
+.wraptype-certinum label {
+  display: block;
+  margin: 0 auto
+}
+
+.inp-base.type-card.inp-type-a {
+  width: 170px
+}
+
+.btn-normal.btn-type-a {
+  margin: 10px 0 130px
+}
+
+.agr-wrap2::before {
+  content: "";
+  display: block;
+  width: 1px;
+  height: calc(100% - 40px);
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  border-left: 1px dashed #c3c3c3
+}
+
+.agr-wrap2>div {
+  border: 0
+}
+
+.wraptype-certinum.type-a {
+  margin-top: 20px;
+  width: 100%;
+  padding: 30px 0;
+  background: #fff
+}
+
+.wraptype-certinum.type-a {
+  text-align: center
+}
+
+.wraptype-certinum.type-a input[type=text] {
+  display: inline-block;
+  font-size: 28px;
+  padding: 10px 10px;
+  height: auto;
+  text-align-last: center;
+  width: 200px;
+  letter-spacing: .3em;
+  font-weight: 600;
+  border: 0;
+  background-color: #fff;
+  border-bottom: 2px solid #000
+}
+
+.txt-time.txt-time-type {
+  display: block;
+  width: 300px;
+  color: #000;
+  margin: 10px auto 0;
+  text-align: center
+}
+
+.txt-time.txt-time-type span {
+  margin: 0 5px 0 10px
+}
+
+[class*="box-item"].ico-certify .box-db-div.n1 .ico-box:before {
+  background: url(/resources/images/common/ico_certificate.png) no-repeat;
+  background-size: 100%
+}
+
+[class*="box-item"].ico-certify .box-db-div.n2 .ico-box:before {
+  background: url(/resources/images/common/ico_phone.png) no-repeat;
+  background-size: 100%
+}
+
+[class*="box-item"].ico-certify .box-db-div.n6 .ico-box:before {
+  background: url(/resources/images/common/ico_pin.png) no-repeat;
+  background-size: 100%
+}
+
+[class*="box-item"].ico-certify .box-db-div.n7 .ico-box:before {
+  background: url(/resources/images/common/ico_biometric.png) no-repeat;
+  background-size: 100%
+}
+
+[class*="box-item"].ico-certify .box-db-div.n4 .ico-box:before {
+  background: url(/resources/images/common/ico_kakao.png) no-repeat;
+  background-size: 100%
+}
+
+[class*="box-item"].ico-certify .box-db-div.n5 .ico-box:before {
+  background: url(/resources/images/common/ico_toss.png) no-repeat;
+  background-size: 100%
+}
+
+[class*="box-item"][class*="ico-"] .box-db-div {
+  padding: 22px 0
+}
+
+.ico-certify .box-db-div:first-child {
+  margin-left: 0 !important
+}
+
+.box-item4.ico-certify .box-db-div {
+  width: 169px;
+  margin-left: 12px
+}
+
+.box-item4 .ico-box {
+  padding: 70px 0 0 0
+}
+
+.box-item4 .ico-box:before {
+  width: 80px;
+  height: 80px;
+  margin-left: -40px
+}
+
+.box-item4 .ico-box button {
+  width: 140px;
+  min-width: 120px;
+  padding: 11px 0 11px 0;
+  margin-top: 25px
+}
+
+.box-item5.ico-certify .box-db-div {
+  width: 169px;
+  margin-left: 12px
+}
+
+.box-item5 .ico-box {
+  padding: 70px 0 0 0
+}
+
+.box-item5 .ico-box:before {
+  width: 80px;
+  height: 80px;
+  margin-left: -40px
+}
+
+.box-item5 .ico-box button {
+  width: 140px;
+  min-width: 120px;
+  padding: 11px 0 11px 0;
+  margin-top: 25px
+}
+
+.box-item6.ico-certify .box-db-div {
+  width: 138px;
+  margin-left: 13px
+}
+
+.box-item6 .ico-box {
+  padding: 70px 0 0 0
+}
+
+.box-item6 .ico-box:before {
+  width: 80px;
+  height: 80px;
+  margin-left: -40px
+}
+
+.box-item6 .ico-box button {
+  width: 110px;
+  min-width: 100px;
+  padding: 11px 0 11px 0;
+  margin-top: 25px
+}
+
+.btn-main-blue {
+  font-size: 14px
+}
+
+button.pin-type {
+  display: block;
+  text-decoration: underline;
+  margin: 5px 0 0 2px;
+  font-size: 13px
+}
+
+.box-list-type-a .box-item4.ico-certify {
+  margin-top: 20px
+}
+
+.box-list-type-a .box-item4.ico-certify .box-db-div {
+  width: 215px
+}
+
+.box-list-type-a .box-item4 .ico-box button {
+  width: 180px;
+  min-width: 130px
+}
+
+.box-list-type-a .box-item5.ico-certify {
+  margin-top: 20px
+}
+
+.box-list-type-a .box-item5.ico-certify .box-db-div {
+  width: 141px;
+  margin-left: 13px
+}
+
+.box-list-type-a .box-item5 .ico-box button {
+  width: 120px;
+  min-width: 120px
+}
+
+.box-list-type-a .box-item6.ico-certify {
+  margin-top: 20px
+}
+
+.box-list-type-a .box-item6.ico-certify .box-db-div {
+  width: 123px;
+  margin-left: 4px
+}
+
+.box-list-type-a .box-item6 .ico-box button {
+  width: 110px;
+  min-width: 110px
+}
+
+.ui-modal-wrap .box-list-type-a .box-item4.ico-certify .box-db-div {
+  width: 181px
+}
+
+.ui-modal-wrap .box-list-type-a .box-item4 .ico-box button {
+  width: 140px
+}
+
+.ico-pin-circle {
+  display: inline-block;
+  width: 6.4rem;
+  height: 6.4rem;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 1.3rem;
+  margin-top: 1.8rem
+}
+
+.ico-pin-circle::before {
+  content: "";
+  display: inline-block;
+  width: 70px;
+  height: 55px;
+  background: url(/m/resources/images/add/ico_pin.png) no-repeat 0 0 / cover
+}
+
+.ico-bio-circle.type-s {
+  display: inline-block;
+  width: 6.4rem;
+  height: 6.4rem;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 1.3rem;
+  margin-top: 1.8rem
+}
+
+.ico-bio-circle.type-s::before {
+  content: "";
+  display: inline-block;
+  width: 70px;
+  height: 55px;
+  background: url(/m/resources/images/add/ico_biometric.png) no-repeat 0 0 / cover
+}
+
+.ico-bio-circle {
+  display: inline-block;
+  width: 10.4rem;
+  height: 10.4rem;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 2.2rem;
+  margin-top: .8rem
+}
+
+.ico-bio-circle::before {
+  content: "";
+  display: inline-block;
+  width: 70px;
+  height: 55px;
+  background: url(/m/resources/images/add/ico_biometric.png) no-repeat 0 0 / cover
+}
+
+.ico-bio-circle.bio-type1 {
+  margin-top: 15.8rem
+}
+
+.ico-bio-circle.bio-type2 {
+  margin-top: 7.8rem
+}
+
+a.line {
+  text-decoration: underline;
+  display: inline-block;
+  font-size: 15px
+}
+
+.len3 li:nth-child(4)::before {
+  display: none
+}
