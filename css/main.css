@@ -16,10 +16,11 @@
   clear: both;
 }
 .base-header {
-  position: relative;
+  position: fixed;
+  top:0;
+  z-index: 99;
   width: 100%;
   height: 148px;
-  z-index: 99;
   border-bottom: 1px solid #76b2ec;
   background: #3b92e5;
 }
@@ -180,6 +181,7 @@
   width:100%;
   z-index: 2;
   height:100%;
+  margin-top:148px;
 }
 .main-wrap {
   display: block;
@@ -274,13 +276,12 @@
   height: 184px;
 }
 .main-top-right .issue-banner-wrap {
-  width: 100%;
+  width: 550px;
   height: 104px;
   margin:0;
-  padding:40px 0;
+  padding:40px 0 40px 30px;
   position: relative;
   z-index: 1;
-  
 }
 .main-top-right .slide-wrap {
   position: relative;
@@ -288,17 +289,53 @@
   height: 100%;
   overflow: hidden;
 }
-.main-top-right .slide-item {
-  margin-left: 10px;
-  border:2px solid red;
+.slide-wrap .ui-slide-idxnav-wrap {
+  position: absolute;
+  width:25px;
+  bottom: 5px;
+  right: 155px;
+  padding-left: 15px;
+  padding-right: 10px;
+  height: 22px;
+  background: #26619e;
+  background-position: 0 0;
+  background-repeat: repeat;
+  background-size: 2px;
+  border-radius: 14px;
+  z-index: 1;
+}
+.slide-wrap .ui-slide-idxnav-wrap .swiper-pagination {
+  text-align: left;
+  color: #fff;
+  font-size: 12px;
+  line-height: 1px;
+  letter-spacing: 1px;
+} 
+.slide-wrap .swiper-slide {
+  /* margin-left: 10px; */
   box-sizing: border-box;
 }
-.main-top-right .slide-item .text {
-  font-size: 18px;
+.slide-wrap .swiper-slide a {
+  color: #fff;
+  padding-right: 160px;
+}
+.slide-wrap .swiper-slide .m-issue-banner {
+  height: 100px;
+  width: 100%;
+  display: block;
+  background-size: 100px;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  padding: 0 8px;
+}
+.slide-wrap .swiper-slide .text {
+  font-size: 20px;
   font-weight: 400;
   color:#fff;
   text-align: right;
   line-height: 1.4;
+  padding-right: 135px;
+  letter-spacing: -0.075em;
 }
 
 .main-top-right .login-box {
@@ -442,7 +479,7 @@
   background: #fff;
   z-index: 100;
 }
-.cate-list-tab-wrap ul.cate-list-tab {
+.cate-list-tab-wrap .cate-list-tab {
   width: 540px;
   min-width: 100%;
   display: flex;
@@ -452,16 +489,20 @@
   border-bottom: 1px solid #efefef;
   padding: 0 10px;
 }
-.cate-list-tab-wrap ul.cate-list-tab li {
+.cate-list-tab-wrap .cate-list-tab li {
   text-align: center;
 }
-.cate-list-tab-wrap ul.cate-list-tab li a {
+.cate-list-tab-wrap .cate-list-tab li a {
   display: block;
   font-size: 18px;
   font-weight: 600;
   padding:  15px 15px;
 }
-.cate-list-tab-wrap ul.cate-list-tab li a.selected {
+.cate-list-tab-wrap .cate-list-tab li a:hover {
+  color: #2c7fdf;
+  border-bottom: 3px solid #2c7fdf;
+}
+.cate-list-tab-wrap .cate-list-tab li a.selected {
   color: #2c7fdf;
   border-bottom: 3px solid #2c7fdf;
 }

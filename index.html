@@ -9,10 +9,14 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/common.css">
   <link rel="stylesheet" href="./css/main.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script src="./js/jquery.smint.js"></script>
 
 </head>
 <body>
@@ -219,12 +223,44 @@
             <div class="main-top-right">
               <div class="tile-box">
                 <div class="issue-banner-wrap">
-                  <div class="slide-wrap">
-                    <div class="slide-item">
-                      <p class="text">네이버페이 포인트로 보험료 결제 시<br>
-                        포인트 혜택을 드립니다.</p>
+                  <div class="slide-wrap mySwiper">
+                    <div class="swiper-button-next" style="display: none;"></div>
+                    <div class="swiper-button-prev" style="display: none;"></div>
 
-                      </a>
+                    <div class="ui-slide-idxnav-wrap">
+                      <div class="swiper-pagination" style="margin-left:10px;">
+                      </div>
+                    </div>
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <a href="#" class="m-issue-banner"
+                          style="background-image: url('./images/main_banner_20211231.png');">
+                          <p class="text">주택화재보험 OX퀴즈 풀고,<br />
+                            보험료 계산시 경품을 드려요.
+                          </p>
+                        </a>
+                      </div>
+                      <div class="swiper-slide">
+                        <a href="#" class="m-issue-banner" style="background-image: url('./images/main_banner_1.png');">
+                          <p class="text">네이버페이 포인트로 보험료 결제 시<br />
+                            포인트 혜택을 드립니다.
+                          </p>
+                        </a>
+                      </div>
+                      <div class="swiper-slide">
+                        <a href="#" class="m-issue-banner" style="background-image: url('./images/main_banner_5.png');">
+                          <p class="text">친구에게 소개 받는 분이<br />
+                            자동차보험료 확인 시, 스타벅스 커피 2잔 지급
+                          </p>
+                        </a>
+                      </div>
+                      <div class="swiper-slide">
+                        <a href="#" class="m-issue-banner" style="background-image: url('./images/main_banner_6.png');">
+                          <p class="text">실손과 건강 또는 어린이보험을<br />
+                            함께 가입하면, 이마트 상품권 최대 1만원 증정
+                          </p>
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -262,21 +298,21 @@
 
         <!--메인 스크롤 상품리스트 -->
         <div class="main-scroll-list">
-          <div class="cate-list-tab-wrap" style="position: absolute;top:0px; ">
+          <div class="cate-list-tab-wrap" style="position:absolute;top:0px;">
             <ul class="cate-list-tab">
-              <li><a href="#" class="selected">자동차</a></li>
-              <li><a href="#">운전자</a></li>
-              <li><a href="#">건강</a></li>
-              <li><a href="#">자녀</a></li>
-              <li><a href="#">여행</a></li>
-              <li><a href="#">재산</a></li>
-              <li><a href="#">레저</a></li>
-              <li><a href="#">펫</a></li>
-              <li><a href="#">저축</a></li>
+              <li><a href="#sn1" class="selected">자동차</a></li>
+              <li><a href="#sn2">운전자</a></li>
+              <li><a href="#sn3">건강</a></li>
+              <li><a href="#sn4">자녀</a></li>
+              <li><a href="#sn5">여행</a></li>
+              <li><a href="#sn6">재산</a></li>
+              <li><a href="#sn7">레저</a></li>
+              <li><a href="#sn8">펫</a></li>
+              <li><a href="#sn9">저축</a></li>
             </ul>
           </div>
           <!--자동차 보험-->
-          <div class="main-prd-wrap">
+          <div class="main-prd-wrap sn1">
             <div class="top-prd-box">
               <div class="top-prd-left">
                 <div class="top-prd-title">
@@ -328,7 +364,7 @@
           </div>
           
           <!--운전자보험-->
-          <div class="main-prd-wrap">
+          <div class="main-prd-wrap sn2">
             <div class="top-prd-box">
               <div class="top-prd-left">
                 <div class="top-prd-title">
@@ -368,7 +404,7 @@
             </div>
           </div>
           <!--실손의료비보험-->
-          <div class="main-prd-wrap">
+          <div class="main-prd-wrap sn3">
             <div class="top-prd-box">
               <div class="top-prd-left">
                 <div class="top-prd-title">
@@ -537,5 +573,32 @@
   <!-- //FOOTER -->
   </div>
   
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+      pagination: {
+        el: ".swiper-pagination",
+        type: "fraction",
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+  <!-- onepage_scroll_header_fixed -->
+  <script type="text/javascript">
+    $(document).ready( function() {
+        $('.cate-list-tab-wrap').smint({
+          'scrollSpeed' : 1000
+        });
+    });   
+    </script>
 </body>
 </html>
